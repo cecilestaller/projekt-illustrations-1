@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "merri";
+    src: url(./../fonts/Merriweather-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Fonts: -  Merriweather 
+    colors: - #000000
+            - #202020
+            - #ffffff
+            - #7e7e7e
+            - #55acee
+            - #3b5998
+            - #55acee * 10%
+            - #c4302b
+            - #fcaf45  */
+
+body {
+    background-color: #ffffff;
+    font-family: "merri";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    text-align: right;
+    padding-top: 2%;
+}
+nav li {
+    display: inline-block;
+    padding-inline: 1%;
+}
+
+.hero {
+    padding-right: 5%;
+    padding-left: 8%;
+    padding-block: 4%;
+    width: 100%;
+}
+
+/* Bilder können auch als Background image eingebunden werden!! */
+
+.gif {
+    height: 400px;
+    width: 300px;
+}
+
+.hero div:nth-of-type(1) {
+    display: inline-block;
+    vertical-align: left;
+    height: 500px;
+    width: 500px;
+}
+.hero div:nth-of-type(2) {
+    /* display: inline-block; */
+    float: right;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.5rem;
+    line-height: 2;
+    padding-block: 30px;
+}
+
+.download {
+    font-size: 1.5rem;
+    background-color: black;
+    color: #ffffff;
+    padding: 2%;
+    border-radius: 1rem;
+}
+
+.subscribe {
+    font-size: 1.5rem;
+    padding: 2%;
+    border-radius: 1rem;
+    border: 1px solid #7e7e7e;
+}
+
+.section_wrapper {
+    padding-inline: 8%;
+    width: 100%;
+}
+
+.headline {
+    font-size: 3rem;
+}
+.paragraph {
+    font-size: 1.3rem;
+    line-height: 2;
+    padding-block: 30px;
+}
+
+.img_sec {
+    height: 380px;
+    width: 340px;
+}
+.beauty {
+    padding-block: 4%;
+}
+
+.beauty div:nth-of-type(1) {
+    display: inline-block;
+    vertical-align: right;
+    height: 500px;
+    width: 500px;
+    margin-left: 20vw;
+}
+.beauty div:nth-of-type(2) {
+    /* display: inline-block; */
+    float: left;
+}
+
+.express div:nth-of-type(1) {
+    display: inline-block;
+    vertical-align: left;
+    height: 500px;
+    width: 500px;
+}
+.express div:nth-of-type(2) {
+    /* display: inline-block; */
+    float: right;
+}
+
+.img_app {
+    height: 300px;
+    width: 360px;
+    margin-inline: 2vw;
+}
+
+.img_app:hover {
+    border: 2px solid #7e7e7eb3;
+}
+
+.applications {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.applications div:nth-of-type(1) {
+    display: inline-block;
+    text-align: center;
+    padding-block: 4%;
+    width: 85%;
+}
+
+.applications div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.wrapper2 {
+    padding-inline: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+
+.examples {
+    text-align: center;
+}
+
+.examples div:nth-of-type(1) {
+    display: inline-block;
+    text-align: center;
+    padding-block: 4%;
+    width: 85%;
+}
+
+.img_use {
+    width: 570px;
+    height: 320px;
+    margin: 1%;
+}
+
+.img_use:hover {
+    border: 2px solid #7e7e7eb3;
+}
+
+.examples div:nth-of-type(2) {
+    display: inline-block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+}
+
+.download_illustrations {
+    text-align: center;
+    padding-inline: 8%;
+    width: 100%;
+}
+
+.download_illustrations div:nth-of-type(1) {
+    display: inline-block;
+    width: 60%;
+}
+
+.membership {
+    display: inline-block;
+    background-color: hsl(206, 82%, 63%, 10%);
+    min-height: 50vh;
+    width: 40%;
+    padding: 6%;
+    margin-block: 7%;
+}
+
+.membership h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+.membership h4 {
+    font-size: 4rem;
+    padding: 15%;
+}
+
+.membership p:nth-of-type(1) {
+    color: #7e7e7e;
+    padding: 10%;
+}
+
+.membership p:nth-of-type(4) {
+    margin-bottom: 20%;
+}
+
+.member {
+    background-color: #55acee;
+    color: #ffffff;
+    padding: 10%;
+    border-radius: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding-block: 4%;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin-block: 1%;
+}
+
+.grau {
+    color: #7e7e7e;
+}
+
+.ig {
+    color: #fcaf45 ;
+}
+.tw {
+    color: #55ACEE;
+}
+.yt {
+    color: #C4302B;
+}
+footer ul a {
+    padding: 0.5%;
+}
